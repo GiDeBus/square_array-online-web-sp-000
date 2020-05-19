@@ -1,6 +1,8 @@
 def square_array(array)
   array.each do |element|
+    counter = 0
     element = element * element
-    counter +0
+    array[counter] = element
+    counter += 1
   end
 end
